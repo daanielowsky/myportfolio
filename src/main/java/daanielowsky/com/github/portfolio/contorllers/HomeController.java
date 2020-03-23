@@ -11,8 +11,4 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/drugie")
-    public String getSecondPage(){
-        return "drugie";
-    }
 }
