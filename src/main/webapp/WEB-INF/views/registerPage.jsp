@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="../../media/css/style.css" rel="stylesheet" type="text/css" >
 </head>
 <body>
 <form:form method="post" modelAttribute="userDTO">
