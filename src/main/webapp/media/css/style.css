@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://i.ibb.co/TTmvprv/background.jpg');
+    background-image: url('../../media/img/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -7,5 +7,23 @@ body {
 
 #aboutme {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 4px solid #73AD21;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+#info {
+    color: black;
+    font-weight: bolder
+}
+
+.item {
+    width:100%;
+    height: 100%
+}
+
+.technologies{
+    width: 20%;
+    margin: 50px;
 }

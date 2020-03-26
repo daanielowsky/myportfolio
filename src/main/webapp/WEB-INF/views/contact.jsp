@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css">
 </head>
-<body style="background-image: url('https://airmario.pl/wp-content/uploads/2015/05/Background-Wallpaper-7.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+<body>
 <div class="container">
     <center><img src="https://i.ibb.co/nkQ4w3K/cooltext352792072079231.png"/>    </center>
     <form:form modelAttribute="form" action="/contact" method="post">
@@ -29,7 +30,7 @@
             <label for="message">Wiadomość:</label>
             <form:textarea path="message" class="form-control" id="message" rows="5"/>
         </div>
-        <small style="font-weight: bolder; color: black">Aplikacja wysyła do mnie maila. Postaram się odpowiedzieć najszybciej jak się da.</small><br><br>
+        <small id="info">Aplikacja wysyła do mnie maila. Postaram się odpowiedzieć najszybciej jak się da.</small><br><br>
         <button type="submit" class="btn btn-default">Wyślij</button>
         <button type="reset" class="btn btn-default">Reset</button><br>
     </form:form>
